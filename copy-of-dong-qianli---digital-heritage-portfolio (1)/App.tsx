@@ -39,7 +39,7 @@ const BootSequence: React.FC<{ onComplete: () => void }> = ({ onComplete }) => {
         <div className="fixed inset-0 bg-black z-[9999] flex items-center justify-center font-mono text-xs text-tech-cyan">
             <div className="w-64">
                 {lines.map((line, idx) => (
-                    <div key={idx} className="mb-1">> {line}</div>
+                    <div key={idx} className="mb-1">{'>'} {line}</div>
                 ))}
                 <div className="animate-pulse">_</div>
             </div>
@@ -139,7 +139,7 @@ const App: React.FC = () => {
                 </div>
 
                 <p className="font-serif italic text-2xl text-stone-400 mb-8 mt-2">
-                    Digital Pathways to Classical Gardens
+                    Digital Pathways to Cultural Heritage
                 </p>
 
                 <div className="max-w-xl mx-auto backdrop-blur-sm bg-black/50 border border-white/10 p-6 rounded-sm">

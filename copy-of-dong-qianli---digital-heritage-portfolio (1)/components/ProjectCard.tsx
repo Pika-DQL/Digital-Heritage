@@ -79,9 +79,16 @@ const ProjectCard: React.FC<Props> = ({ data, index }) => {
     
     const totalSlots = mediaItems.length + (showVideo ? 1 : 0);
     const isThree = totalSlots === 3;
+    const isFourWithoutVideo = totalSlots === 4 && !showVideo;
+
+    const gridLayoutClass = isFourWithoutVideo
+        ? 'grid-cols-2'
+        : 'grid-cols-2 grid-rows-2';
+    
+    const heightClass = isFourWithoutVideo ? '' : 'h-full';
 
     return (
-        <div className={`grid gap-2 w-full h-full ${isThree ? 'grid-rows-2 grid-cols-2' : 'grid-cols-2 grid-rows-2'}`}>
+        <div className={`grid gap-2 w-full ${heightClass} ${gridLayoutClass}`}>
             {showVideo && (
                  <div className="relative border border-tech-dim bg-tech-surface overflow-hidden group/media w-full h-full min-h-[150px]">
                     <iframe 
@@ -107,7 +114,7 @@ const ProjectCard: React.FC<Props> = ({ data, index }) => {
                          <img 
                             src={img} 
                             alt={`Detail ${idx}`}
-                            className="w-full h-full object-contain opacity-60 grayscale contrast-125 group-hover/media:opacity-100 group-hover/media:grayscale-0 transition-all duration-500"
+                            className="w-full h-full object-cover opacity-60 grayscale contrast-125 group-hover/media:opacity-100 group-hover/media:grayscale-0 transition-all duration-500"
                         />
                          <div className="absolute inset-0 bg-tech-cyan/10 mix-blend-overlay group-hover/media:bg-transparent transition-all"></div>
                          <div className="absolute top-2 left-2 bg-black/80 px-2 py-0.5 text-[8px] text-tech-cyan border border-tech-cyan/50 opacity-0 group-hover/media:opacity-100 transition-opacity">CAM_0{idx+1}</div>

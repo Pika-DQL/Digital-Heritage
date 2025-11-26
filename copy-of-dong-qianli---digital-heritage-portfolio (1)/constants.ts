@@ -14,7 +14,7 @@ export const HERO_DATA = {
   subtitle: "Digital Pathways to Classical Chinese Gardens",
   author: "Dong Qianli",
   role: "PhD Candidate | National University of Singapore & Nanjing Forestry University",
-  abstract: "Bridging tradition and technology. An integrated approach for high-precision 3D surveying, rockery informatics, and the digital preservation of complex cultural landscapes."
+  abstract: "Bridging tradition and technology. An integrated approach for high-precision 3D surveying, heritage informatics, and the digital preservation of complex cultural heritage."
 };
 
 export const PROJECTS: ProjectSection[] = [
