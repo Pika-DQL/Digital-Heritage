@@ -1,5 +1,19 @@
 
 import { ProjectSection } from './types';
+import img1 from './images/1.png';
+import img2 from './images/2.png';
+import img3 from './images/3.png';
+import img4 from './images/4.png';
+import img5 from './images/5.png';
+import img6 from './images/6.png';
+import img7 from './images/7.png';
+import img8 from './images/8.png';
+import img9 from './images/9.png';
+import img10 from './images/10.png';
+import img11 from './images/11.png';
+import img12 from './images/12.jpg';
+import img13 from './images/13.jpg';
+import img14 from './images/14.jpeg';
 
 export const NAV_ITEMS = [
   { label: '01. Data', targetId: 'collection' },
@@ -24,10 +38,10 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'Systematic 3D Surveying & Cloud Platforms',
     description: "Developing a problem-oriented surveying system tailored to the complex morphology of Chinese gardens. This includes site layouts, rockeries, and individual scholar's rocks.",
     images: [
-      "images/1.png",
-      "images/2.png",
-      "images/3.png",
-      "images/4.png"
+      img1,
+      img2,
+      img3,
+      img4
     ],
     mainLink: "https://www.nature.com/articles/s40494-020-00405-z",
     details: [
@@ -44,9 +58,9 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'Visualizing Structure & Aesthetics',
     description: "Applying finite element analysis (FEA) and texture mapping to interpret the cultural logic and structural risks of garden rockeries.",
     images: [
-      "images/5.png",
-      "images/6.png",
-      "images/7.png"
+      img5,
+      img6,
+      img7
     ],
     details: [
       { 
@@ -71,9 +85,9 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'VR & Gamified Transmission',
     description: "Documenting the living craftsmanship of rockery building and translating it into immersive digital experiences for public education.",
     images: [
-      "images/8.png",
-      "images/9.png",
-      "images/10.png"
+      img8,
+      img9,
+      img10
     ],
     video: "724kNPAQR84", // YouTube ID
     details: [
@@ -90,10 +104,10 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'Micro-Analysis & Reconstruction',
     description: "Scientific investigation into the material composition of heritage elements to inform sustainable conservation practices.",
     images: [
-      "images/11.png",
-      "images/12.jpg",
-      "images/13.jpg",
-      "images/14.jpeg"
+      img11,
+      img12,
+      img13,
+      img14
     ],
     details: [
       { text: "Microscopic analysis of traditional mortars and aggregates." },
