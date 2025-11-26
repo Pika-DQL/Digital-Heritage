@@ -43,7 +43,7 @@ const ParticleTitle: React.FC<Props> = ({ text = "CRAFTING HERITAGE", small = fa
       
       // Dynamic font size calculation
       // INCREASED SIZES for better readability
-      const baseSize = small ? 80 : 130; 
+      const baseSize = small ? 60 : 130; 
       const charLimit = small ? 25 : 12;
       const scaleFactor = Math.min(1, charLimit / text.length);
       const fontSize = Math.min(width / (text.length * 0.5), baseSize * scaleFactor);

@@ -24,10 +24,10 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'Systematic 3D Surveying & Cloud Platforms',
     description: "Developing a problem-oriented surveying system tailored to the complex morphology of Chinese gardens. This includes site layouts, rockeries, and individual scholar's rocks.",
     images: [
-      "./images/1.png",
-      "./images/2.png",
-      "./images/3.png",
-      "./images/4.png"
+      "images/1.png",
+      "images/2.png",
+      "images/3.png",
+      "images/4.png"
     ],
     mainLink: "https://www.nature.com/articles/s40494-020-00405-z",
     details: [
@@ -44,9 +44,9 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'Visualizing Structure & Aesthetics',
     description: "Applying finite element analysis (FEA) and texture mapping to interpret the cultural logic and structural risks of garden rockeries.",
     images: [
-      "./images/5.png",
-      "./images/6.png",
-      "./images/7.png"
+      "images/5.png",
+      "images/6.png",
+      "images/7.png"
     ],
     details: [
       { 
@@ -71,9 +71,9 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'VR & Gamified Transmission',
     description: "Documenting the living craftsmanship of rockery building and translating it into immersive digital experiences for public education.",
     images: [
-      "./images/8.png",
-      "./images/9.png",
-      "./images/10.png"
+      "images/8.png",
+      "images/9.png",
+      "images/10.png"
     ],
     video: "724kNPAQR84", // YouTube ID
     details: [
@@ -90,10 +90,10 @@ export const PROJECTS: ProjectSection[] = [
     subtitle: 'Micro-Analysis & Reconstruction',
     description: "Scientific investigation into the material composition of heritage elements to inform sustainable conservation practices.",
     images: [
-      "./images/11.png",
-      "./images/12.jpg",
-      "./images/13.jpg",
-      "./images/14.jpeg"
+      "images/11.png",
+      "images/12.jpg",
+      "images/13.jpg",
+      "images/14.jpeg"
     ],
     details: [
       { text: "Microscopic analysis of traditional mortars and aggregates." },
